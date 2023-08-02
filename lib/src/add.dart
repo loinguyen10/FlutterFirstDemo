@@ -128,7 +128,12 @@ void _sendDataToSecondScreen(BuildContext context) {
   String textName = txtName.text;
   double textPrice = txtPrice.text as double;
   int textAge = txtAge.text as int;
+  String textGender = "male";
 
-  ListItem newitem =
-      ListItem(id: textId, name: textName, age: textAge, price: textPrice);
+  ListItem newitem = ListItem(
+      id: textId,
+      name: textName,
+      age: textAge,
+      gender: textGender,
+      price: textPrice);
 }
